@@ -20,6 +20,16 @@ namespace hetfoHatodik
                 Console.WriteLine("awwwwwwww :3 :3");
             }
             else Console.WriteLine(" :((((");
+
+            Console.WriteLine("What is your fav colour? ");
+            Console.WriteLine(">>>>>>>>>>>>>>");
+            resp = Console.ReadLine();
+            if (resp.ToLower().Contains("pink"))
+            {
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine("This?");
+            }
+            Console.ReadKey(true);
             
         }
     }
